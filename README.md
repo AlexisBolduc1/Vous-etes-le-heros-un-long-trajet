@@ -12,5 +12,5 @@
 
 **État de survol(fond et texte):** #98C1D9 / #E5E5E5
 
-##Diagramme
+## Diagramme
 
