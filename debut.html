@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un Long Trajet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game">
+    <h1 class="titre">
+      Un Long Trajet
+    </h1>
+    <h2 class="subtitle">
+    Le début d'une longue journée
+    </h2>
+    <p class="paragraphe">
+      Vous venez de vous réveiller. 
+      Vous êtes sur le bord d'une route quelconque.
+      Aucune importance,vous vagabondez de ville en ville afin de remplir des missions.
+      Votre rôle de mercenaire aujourd'hui sera de tuer le dirigeant du parti au pouvoir.
+      L'homme qui cause tout les troubles de cette ville et de cette planète.
+      Vous devez partir maintenant.
+    </p>
+    <button type="button" class="btnspecial" onclick="reset()">
+      Effacer ma partie
+     </button>
+     <img class="images" id="images" src="assets/images/intro.jpg" >
+     <video class="video" id="video" src="" loop muted autoplay></video>
+     <audio id="audio" src="assets/son/transition.mp3" autoplay></audio>
+  </br>
+  <label class="son">
+    <input id="son"
+          type="checkbox" 
+           name="son" 
+           value="oui" 
+           checked> Son
+  </label>
+     <div class="bouton">
+        <button type="button" class="btn" onclick="goToChapter('fumer')">
+        Prendre une pause cigarette
+        </button>
+        <button type="button" class="btn" onclick="goToChapter('mission')">
+          Partir en mission
+        </button>
+          <button type="button" class="btn" onclick="goToChapter('gorgee')">
+           Prendre une gorgée
+          </button>
+        </div>
+    </div>
+    <script src="utile.js"> </script>
+</body>
+</html>
